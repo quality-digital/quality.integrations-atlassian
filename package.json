@@ -1,0 +1,26 @@
+{
+  "name": "quality-chatai",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "babel-node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "axios": "^1.7.2",
+    "btoa": "^1.2.1",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.17.5",
+    "@babel/preset-env": "^7.17.6"
+  }
+}
